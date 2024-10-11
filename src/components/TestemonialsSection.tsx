@@ -34,13 +34,13 @@ export default function TestimonialsSection() {
         </h2>
 
         {/* Marquee de Depoimentos */}
-        <Marquee gradient={false} speed={50} aria-label="Depoimentos de empreendedores">
+        <Marquee gradient={false} speed={50}>
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
               className="mx-8 p-4 bg-gray-800 rounded-lg shadow-lg max-w-md"
             >
-              <blockquote className="text-lg italic text-gray-300 mb-4">"{testimonial.feedback}"</blockquote>
+              <p className="text-lg italic text-gray-300 mb-4">&quot;{testimonial.feedback}&quot;</p>
               <p className="font-bold text-primary">{testimonial.name}</p>
             </div>
           ))}

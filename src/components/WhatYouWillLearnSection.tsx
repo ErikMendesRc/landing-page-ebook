@@ -46,13 +46,11 @@ export default function WhatYouWillLearn() {
             >
               <h3 
                 className="text-2xl font-bold text-primary mb-4 font-serif"
-                role="heading"
-                aria-level={3}
               >
                 {topic.title}
               </h3>
               <p className="text-lg text-gray-300 font-sans leading-relaxed">
-                {topic.description}
+                {topic.description.replace(/"/g, '&quot;')}
               </p>
             </div>
           ))}
