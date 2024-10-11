@@ -19,7 +19,7 @@ const EbookPresentation: React.FC = () => {
 
         {/* Texto Descritivo */}
         <p className="text-lg md:text-xl text-center mb-12 leading-relaxed text-gray-300 font-sans">
-          O <strong className="text-white">'Iniciando Seu Primeiro Negócio'</strong> é o guia definitivo para transformar suas ideias em um negócio de sucesso.
+          O <strong className="text-white">&apos;Iniciando Seu Primeiro Negócio&apos;</strong> é o guia definitivo para transformar suas ideias em um negócio de sucesso.
           Com ferramentas práticas, estudos de caso reais e dicas essenciais, você estará preparado para cada passo da jornada.
         </p>
 

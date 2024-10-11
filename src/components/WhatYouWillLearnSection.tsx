@@ -42,9 +42,15 @@ export default function WhatYouWillLearn() {
           {topics.map((topic, index) => (
             <div
               key={index}
-              className="p-6 bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="p-6 bg-gray-800 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300"
             >
-              <h3 className="text-2xl font-bold text-primary mb-4 font-serif">{topic.title}</h3>
+              <h3 
+                className="text-2xl font-bold text-primary mb-4 font-serif"
+                role="heading"
+                aria-level={3}
+              >
+                {topic.title}
+              </h3>
               <p className="text-lg text-gray-300 font-sans leading-relaxed">
                 {topic.description}
               </p>

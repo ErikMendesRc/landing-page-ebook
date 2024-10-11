@@ -26,6 +26,7 @@ export default function FinalCallToAction() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-primary text-black uppercase font-bold py-4 px-8 rounded-md shadow-lg hover:bg-opacity-90 transition duration-300"
+          aria-label="Clique para baixar o e-book e começar sua jornada como empreendedor"
         >
           Baixar E-book Agora
         </a>

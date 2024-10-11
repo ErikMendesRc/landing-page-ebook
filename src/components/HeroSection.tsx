@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HeroSection: React.FC = () => {
   return (
@@ -27,9 +28,11 @@ const HeroSection: React.FC = () => {
 
         {/* Imagem do e-book */}
         <div className="w-full md:w-1/2 flex justify-center px-4">
-          <img
+          <Image
             src="/images/mockup.png"
             alt="E-book Mockup"
+            width={500}
+            height={600}
             className="max-w-sm md:max-w-2xl h-auto shadow-2xl transform scale-150"
           />
         </div>

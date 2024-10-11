@@ -30,14 +30,14 @@ export default function FAQSection() {
         {/* FAQ Items */}
         <div className="space-y-8">
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            <article key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold mb-4 text-primary font-serif">
                 {faq.question}
               </h3>
               <p className="text-lg text-gray-300 font-sans leading-relaxed">
                 {faq.answer}
               </p>
-            </div>
+            </article>
           ))}
         </div>
       </div>

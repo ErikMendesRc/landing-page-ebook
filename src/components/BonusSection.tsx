@@ -25,6 +25,7 @@ export default function BonusSection() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-black text-primary uppercase font-bold py-4 px-8 rounded-md shadow-lg hover:bg-opacity-90 transition duration-300"
+          aria-label="Aproveite agora a oferta especial do e-book"
         >
           Aproveite Agora
         </a>
